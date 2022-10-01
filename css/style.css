@@ -93,7 +93,7 @@ body{
 }
 
 .header{
-    background-color: #F8F6F7;
+    background: url(/images/background.png);
     overflow: hidden;
     margin-bottom: 40px;
 }
@@ -136,6 +136,9 @@ body{
 
 .navigation a:hover{
     color: #00BF78;
+}
+.phone{
+    text-align: center;
 }
 
 .phone a{  
@@ -203,6 +206,33 @@ body{
     margin: 0;
 }
 
+.work-time{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 17px 30px;
+    line-height: 14px;
+    color: #fff;
+    background-color:#FB9475;
+    user-select: none;
+    border-radius: 24px;
+    width: 203px;
+    height: 48px;
+    align-items: center;
+    transition: 0.2s;
+    border: 0px;
+
+}
+
+.btn:hover{
+    opacity: 0.85;
+}
+
+/* about us starts */
 .about-text{
     max-width: 570px;
     font-weight: 400;
@@ -255,12 +285,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 20px;
 }
 
 .advantage-image{
     height: 48px;
 }
+/* about us ends */
+
+/* footer start */
 
 .footer-text{
     font-weight: 400;
@@ -298,3 +331,4 @@ body{
 .company {
     margin: 0 0 8px 0;
 }
+/* footer end */
