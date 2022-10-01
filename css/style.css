@@ -95,6 +95,7 @@ body{
 .header{
     background-color: #F8F6F7;
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 .header .container{
@@ -194,4 +195,33 @@ body{
     right: 0;
     border-radius: 50%;
     z-index: 1;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+}
+
+.about-text{
+    max-width: 570px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 16px 0;
+}
+
+.about-description{
+    max-width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about-video{
+    width: 445px;
+    height: 297px;
+    background: url('/images/video.png');
+}
+
+.about{
+    box-sizing: border-box;
 }
