@@ -208,12 +208,14 @@ body{
     font-weight: 400;
     font-size: 20px;
     margin: 0 0 16px 0;
+    line-height: 32px;
 }
 
 .about-description{
     max-width: 540px;
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
 }
 
 .about-video{
@@ -222,6 +224,8 @@ body{
     background: url('/images/video.png');
 }
 
-.about{
-    box-sizing: border-box;
+.about-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
