@@ -232,6 +232,11 @@ body{
     opacity: 0.85;
 }
 
+.social{
+    right: 0;
+    position: absolute;
+}
+
 /* about us starts */
 .about-text{
     max-width: 570px;
