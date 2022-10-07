@@ -129,7 +129,7 @@ body{
 }
 
 .navigation a{ 
-    font-size: 14 px;
+    font-size: 14px;
     font-weight: 500;
     transition: 0.2s color;
 }
@@ -428,3 +428,57 @@ body{
 }
 
 /* services end */
+
+/* prices start */
+
+.navigation li:active{
+    text-decoration: underline;
+}
+.prices .navigation{
+    margin-bottom: 57px;
+}
+
+.price-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1015px;
+}
+
+.title-price{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 8px 0;
+    position: absolute;
+}
+
+.description-price{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    position: relative;
+}
+
+.price{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #00BF78;
+    position: relative;
+    margin: 0;
+}
+
+.service-price{
+    max-height: 51px;
+    width: 445px;
+    align-items: flex-start;
+    margin-bottom: 36px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+
+/* prices end */
