@@ -479,6 +479,69 @@ body{
     justify-content: space-between;
     align-content: flex-start;
 }
-
-
 /* prices end */
+
+/* master start */
+.master-title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 24px 0;
+}
+
+.master-info{
+    display: flex;
+    max-width: 255px;
+    flex-direction: column;
+}
+
+.all-masters{
+    display: flex;
+    justify-content: space-between;
+}
+
+.master-name{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px 0 8px 0;
+}
+
+.master-skills{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 20px 0;
+}
+
+.experience{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.masters{
+    background-color: #F8F6F7;
+}
+
+#masters {
+    background-color: #F8F6F7;
+}
+
+.master-photo:hover{
+    content: 'Записаться к мастеру';
+    color: #eee;
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0.95;
+    transform: scale(1.05);
+}
+
+.master-photo{
+    width: 255px;
+    height: 300px;
+}
+
+/* master end */
