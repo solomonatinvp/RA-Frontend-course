@@ -81,14 +81,14 @@ body{
     padding: 50px 0;
 }
 
-.section-header{
+.section__header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 32px;
 }
 
-.section-title{
+.section__title{
     margin: 0px;
 }
 
@@ -102,7 +102,7 @@ body{
     position: relative;
 }
 
-.header-top{
+.header__top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +116,7 @@ body{
     color: #333;
 }
 
-.navigation ul{
+.navigation__list{
     list-style: none;
     padding: 0;
     display: flex;
@@ -124,53 +124,53 @@ body{
     margin: 0;
 }
 
-.navigation li:not(:last-child) {
+.navigation__item:not(:last-child) {
     margin-right: 28px;
 }
 
-.navigation a{ 
+.navigation__link{ 
     font-size: 14px;
     font-weight: 500;
     transition: 0.2s color;
 }
 
-.navigation a:hover{
+.navigation__link:hover{
     color: #00BF78;
 }
 .phone{
     text-align: center;
 }
 
-.phone a{  
+.phone__link{  
     font-size: 18px;
     font-weight: 500;
 }
 
-.phone a,
-.navigation a,
+.phone__link,
+.navigation__link,
 .logo{
     text-decoration: none;
     color:#333;
 }
 
-.header-hero{
+.header__hero{
     max-width: 540px;
     padding: 90px 0 130px 0;
 }
 
-.hero-text{
+.hero__subtitle{
     font-size: 20px;
     font-weight: 400;
     margin: 0 0 76px 0;
 }
 
-.hero-name{
+.hero__title{
     font-weight: 600;
     font-size: 48px;
     margin-bottom: 32px;
 }
 
-.header-girl{
+.header__girl{
     width: 524px;
     height: 510px;
     position:absolute;
@@ -178,7 +178,7 @@ body{
     right: 80px;
 }
 
-.header-girl:after{
+.header__girl:after{
     content: '';
     background: url('/images/girl.png');
     width: 100%;
@@ -188,7 +188,7 @@ body{
     z-index: 2;
 }
 
-.header-girl:before{
+.header__girl:before{
     content: '';
     width: 472px;
     height: 472px;
@@ -200,13 +200,13 @@ body{
     z-index: 1;
 }
 
-.header-title{
+.header__title{
     font-weight: 700;
     font-size: 48px;
     margin: 0;
 }
 
-.work-time{
+.phone__schedule{
     font-weight: 400;
     font-size: 11px;
     line-height: 14px;
@@ -243,7 +243,7 @@ body{
 }
 
 /* about us starts */
-.about-text{
+.aboutSaloon__text{
     max-width: 570px;
     font-weight: 400;
     font-size: 20px;
@@ -251,14 +251,14 @@ body{
     line-height: 32px;
 }
 
-.about-description{
+.aboutSaloon__description{
     max-width: 540px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
 }
 
-.about-video{
+.about__video{
     width: 445px;
     height: 297px;
     position: relative;
@@ -267,7 +267,7 @@ body{
     align-items: center;
 }
 
-.about-video::after{
+.about__video::after{
     background: url('/images/video.png');
     content: 'Короткое видео о нас';
     color: #eee;
@@ -280,7 +280,7 @@ body{
     z-index: 1;
 }
 
-.about-video::before{
+.about__video::before{
     background: url('/images/play-icon.svg');
     content: '';
     position: absolute;
@@ -290,32 +290,32 @@ body{
     transition: 0.2s;
 }
 
-.about-main{
+.about{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 100px;
 }
 
-.about-advantages{
+.about__advantages{
     display: flex;
     justify-content: space-between;
 }
 
-.advantage-title{
+.advantages__title{
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
 }
 
-.advantage-text{
+.advantages__text{
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
 }
 
-.advantage{
+.advantages__advantage{
     text-align: center;
     max-width: 350px;
     display: flex;
@@ -324,14 +324,14 @@ body{
     padding: 20px;
 }
 
-.advantage-image{
+.advantage__image{
     height: 48px;
 }
 /* about us ends */
 
 /* footer start */
 
-.footer-text{
+.footer__text{
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -342,7 +342,7 @@ body{
     
 }
 
-.navigation-footer ul{
+.footer .navigation__list{
     list-style: none;
     padding: 0;
     display: flex;
@@ -350,17 +350,19 @@ body{
     margin: 0;
 }
 
-.navigation-footer li:not(:last-child) {
+.footer .navigation__item:not(:last-child) {
     margin-right: 28px;
 }
 
-.navigation-footer a{ 
+.footer .navigation__link{ 
     transition: 0.2s color;
     text-decoration: none;
     color:#333;
+    font-weight: 400;
+    font-size: 12px;
 }
 
-.navigation-footer a:hover{
+footer .navigation__link:hover{
     color: #00BF78;
 }
 
@@ -379,7 +381,7 @@ body{
     row-gap: 48px;
 }
 
-.service{
+.services__service{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -387,18 +389,18 @@ body{
     max-height: 340px;
 }
 
-.service:not(:last-child){
+.services__service:not(:last-child){
     margin-right: 13px;
 }
 
-.service-title{
+.service__title{
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     margin: 20px 0 8px 0;
 }
 
-.service-description{
+.service__description{
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -406,7 +408,7 @@ body{
     width: 349px;
 }
 
-.btn-service{
+#services .btn{
     display: inline-block;
     padding: 10px 20px;
     width: 112px;
@@ -423,7 +425,7 @@ body{
     line-height: 14px;
 }
 
-.btn-service:hover{
+#services .btn:hover{
     opacity: 0.85;
 }
 
@@ -431,21 +433,21 @@ body{
 
 /* prices start */
 
-.navigation li:active{
+.navigation__item:active{
     text-decoration: underline;
 }
 .prices .navigation{
     margin-bottom: 57px;
 }
 
-.price-list{
+.priceList{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1015px;
 }
 
-.title-price{
+.priceList__title{
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
@@ -453,7 +455,7 @@ body{
     position: absolute;
 }
 
-.description-price{
+.priceList__description{
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -461,7 +463,7 @@ body{
     position: relative;
 }
 
-.price{
+.priceList__price{
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -471,7 +473,7 @@ body{
     margin: 0;
 }
 
-.service-price{
+.priceList__service{
     max-height: 51px;
     width: 445px;
     align-items: flex-start;
@@ -482,39 +484,39 @@ body{
 /* prices end */
 
 /* master start */
-.master-title{
+.master__title{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     margin: 0 0 24px 0;
 }
 
-.master-info{
+.mastersTable__info{
     display: flex;
     max-width: 255px;
     flex-direction: column;
 }
 
-.all-masters{
+.masters__all{
     display: flex;
     justify-content: space-between;
 }
 
-.master-name{
+.mastersTable__name{
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     margin: 20px 0 8px 0;
 }
 
-.master-skills{
+.mastersTable__skills{
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     margin: 0 0 20px 0;
 }
 
-.experience{
+.mastersTable__experience{
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
