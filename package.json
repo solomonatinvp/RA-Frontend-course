@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/solomonatinvp/RA-frontend-course#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.12",
     "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.13",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
+    "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.4.17",
     "sass": "^1.55.0"
   },
   "dependencies": {
