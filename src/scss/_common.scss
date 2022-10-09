@@ -1,0 +1,82 @@
+/* montserrat-regular - cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/montserrat-v25-cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/montserrat-v25-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/montserrat-v25-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/montserrat-v25-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/montserrat-v25-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/montserrat-v25-cyrillic-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-500 - cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/fonts/montserrat-v25-cyrillic-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/montserrat-v25-cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/montserrat-v25-cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/montserrat-v25-cyrillic-500.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/montserrat-v25-cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/montserrat-v25-cyrillic-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-600 - cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../assets/fonts/montserrat-v25-cyrillic-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../assets/fonts/montserrat-v25-cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/montserrat-v25-cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/montserrat-v25-cyrillic-600.woff') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/montserrat-v25-cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/montserrat-v25-cyrillic-600.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *::after{
+box-sizing: inherit;
+}
+
+html, body, .wrapper {
+    height: 100%;
+    font-family: 'Montserrat';
+}
+
+body{
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1;
+}
+
+.header, .footer{
+    flex-shrink: 0;
+}
+
+.container{
+    max-width: 1110px;
+    margin: auto;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.section{
+    padding: 50px 0;
+}
