@@ -481,7 +481,7 @@ footer .navigation__link:hover{
 }
 
 .portfolio__photo:not(:last-child){
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .portfolio__photo{
@@ -534,18 +534,17 @@ footer .navigation__link:hover{
     position:relative;
 }
 
-.contacts__adress, .contacts__phone{
+.contacts__adress, 
+.contacts__phone,
+.contacts__site {
     margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
 }
 
 .contacts__link{
     text-decoration: none;
-}
-
-.contacts__site{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
 }
 
 .form{
