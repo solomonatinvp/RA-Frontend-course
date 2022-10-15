@@ -465,5 +465,53 @@ footer .navigation__link:hover{
 
 /* master end */
 
+/* portfolio starts */
+
+.portfolio__samples{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__photo{
+    width: 338px;
+    height: 338px;
+    margin-bottom: 110px;
+}
+
+.portfolio__photo:not(:last-child){
+    margin-right: 25px;
+}
+
+.portfolio__photo{
+    border-radius: 5px;
+}
+
+.portfolio__brands{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio__title{
+    margin: 0 0 52px 0;
+}
+
+.brandsLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.brandsLogo__logo{
+    opacity: 0.5;
+}
+
+/* portfolio ends */
+
+
+
 @import '_media';
 @import 'common';
