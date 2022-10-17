@@ -1,0 +1,56 @@
+/* media start */
+
+/* Medium Devices, Desktops */ 
+@media only screen and (max-width: 992px) { 
+    .header__girl{
+        opacity: 0.45;
+    }
+    .header__top{
+        flex-direction: column;
+    }
+    .header__nav .navigation__list{
+        justify-content: center;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .header__nav{
+        margin-bottom: 20px;
+    }
+    .header__nav .navigation__item{
+        margin-bottom: 10px;
+    }
+    .hero__subtitle{
+        margin-bottom: 40px;
+    }
+} 
+
+/* Small Devices, Tablets */ 
+@media only screen and (max-width: 768px) {
+    .header__girl{
+        display: none;
+    }
+    .header__hero{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .btn{
+        margin: auto;
+        display: block;
+    }
+    .social{
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+} 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width: 480px) {
+    
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width: 320px) { 
+}
